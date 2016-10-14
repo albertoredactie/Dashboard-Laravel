@@ -1,0 +1,82 @@
+@import "variable-overrides";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import '../../../../node_modules/font-awesome/scss/font-awesome';
+
+/**
+ * Frontend Styles Start Here
+ */
+.hellotextarea{width:100%;    margin-bottom: 50px;}
+.leftbutton{float:left; }
+.rightbutton{float:right;}
+.btn-yellow {color: #004682;background-color: #d3d600; }
+
+.container {
+    width: 90%;
+}
+
+.warning {
+    color: #F99 !important;
+}
+
+.col-md-15 {
+    width: 20%;
+    float: left;
+}
+
+#google-block .block-titel{
+	background-color: #ffe6cc;
+}
+
+#semrush-block .block-titel{
+	background-color: #ff9999;
+}
+
+#facebook-block .block-titel{
+	background-color: #afbdd4;
+}
+
+#twitter-block .block-titel{
+	background-color: #c0deed;
+}
+
+#linkedin-block .block-titel{
+	background-color: #99b3ff;
+}
+
+#fd-block .block-titel{
+	background-color: #ccf2ff;
+}
+
+#mailchimp-block .block-titel{
+	background-color: #e6cab3;
+}
+
+.metric-block{
+	background: #FFFFFF;
+	box-shadow: 0px 8px 13px 0px rgba(0,0,0,0.10);
+	margin-bottom:15px;
+}
+
+.metric-block p{
+    text-align: center;
+}
+.metric-block img{
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.metric-titel{
+	font-weight: bold;
+}
+.metric-value{
+	font-weight: bold;
+}
+.metric-tendency-green{
+	font-weight: bold;
+	color: #32CD32;
+}
+.metric-tendency-red{
+	font-weight: bold;
+	color: red;
+}
